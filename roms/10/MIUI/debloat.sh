@@ -3,24 +3,12 @@
 systempath=$1
 thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
-rm -rf $1/app/cit
-rm -rf $1/app/MiuiCompass
-rm -rf $1/app/MiuiScreenRecorder
-rm -rf $1/app/MiuiVideoGlobal
-rm -rf $1/app/Notes
-rm -rf $1/app/PaymentService
-rm -rf $1/app/Calculator
-rm -rf $1/priv-app/Backup
-rm -rf $1/priv-app/Browser
-rm -rf $1/priv-app/Calendar
-rm -rf $1/priv-app/CleanMaster
+
 rm -rf $1/priv-app/MiRecycle
 rm -rf $1/priv-app/MiuiScanner
 rm -rf $1/priv-app/MiWebView
 rm -rf $1/priv-app/Updater
 rm -rf $1/priv-app/Velvet
-rm -rf $1/priv-app/Weather
-rm -rf $1/priv-app/WeatherProvider
 
 # add more apps to debloat
 
@@ -31,7 +19,6 @@ rm -rf $1/app/NexyPay
 rm -rf $1/app/com.miui.qr
 rm -rf $1/app/FM
 rm -rf $1/app/MiuiBugReport
-rm -rf $1/priv-app/MiuiVideo
 rm -rf $1/priv-app/PersonalAssistant
 rm -rf $1/priv-app/MiuiCamera
 rm -rf $1/priv-app/MiService
@@ -71,8 +58,6 @@ rm -rf $1/priv-app/MiuiScanner
 rm -rf $1/priv-app/Music
 rm -rf $1/priv-app/PersonalAssistantGlobal
 rm -rf $1/priv-app/SoundRecorder
-rm -rf $1/priv-app/Turbo
-rm -rf $1/priv-app/Weather
 rm -rf $1/priv-app/YellowPage
 rm -rf $1/priv-app/facebook-installer
 rm -rf $1/priv-app/facebook-services
@@ -85,10 +70,7 @@ rm -rf $1/product/app/NexyPay
 rm -rf $1/product/app/com.miui.qr
 rm -rf $1/product/app/FM
 rm -rf $1/product/app/MiuiBugReport
-rm -rf $1/product/priv-app/MiuiVideo
 rm -rf $1/product/priv-app/PersonalAssistant
-rm -rf $1/product/priv-app/MiuiCamera
-rm -rf $1/product/priv-app/MiService
 rm -rf $1/product/app/AnalyticsCore
 rm -rf $1/product/app/BasicDreams
 rm -rf $1/product/app/BugReport
@@ -131,9 +113,6 @@ rm -rf $1/product/priv-app/YellowPage
 rm -rf $1/product/priv-app/facebook-installer
 rm -rf $1/product/priv-app/facebook-services
 rm -rf $1/product/app/Lens
-
-rm -rf $1/data-app/*
-rm -rf $1/product/data-app/*
 
 rm -rf $1/product/priv-app/Velvet
 rm -rf $1/product/app/GoogleTTS
